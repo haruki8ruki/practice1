@@ -1,13 +1,10 @@
 basic.forever(function () {
-    basic.showIcon(IconNames.Heart)
+	
+})
+basic.forever(function () {
+    basic.showString("FUCK YOU")
     basic.pause(100)
-    basic.showIcon(IconNames.SmallHeart)
+    basic.showIcon(IconNames.Sad)
     basic.pause(100)
-    basic.showLeds(`
-        . # . # .
-        . # . # .
-        # . # . #
-        # . # . #
-        # . . . #
-        `)
+    basic.showIcon(IconNames.Happy)
 })
